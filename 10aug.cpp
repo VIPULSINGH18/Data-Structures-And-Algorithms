@@ -23,10 +23,10 @@ public:
                 }
                 if(curr->right!=NULL){
                     q.push({curr->right,idx*2+2});
-                }
+                } 
             }
         }
         return max_width;
         
     }
-};
+}; /*hello*/
